@@ -38,7 +38,7 @@ h2 {
 .date-start,
 .date-end {
     font-size: 3.5rem;
-    top: -5vh;
+    top: -10vh;
     position: relative;
 }
 
@@ -50,4 +50,25 @@ h2 {
 .date-end {
     float: right;
     right: -3vw;
+}
+
+.date-marker {
+    position: relative;
+    float: left;
+    border: 2px solid blue;
+    border-radius: 2px;
+    height: 12vh;
+    top: -1vh;
+    left: 0;
+}
+
+.date-marker-text {
+    position: absolute;
+    color: blue;
+    top: 100%;
+    white-space: nowrap;
+}
+
+.points-status {
+    clear: both;
 }

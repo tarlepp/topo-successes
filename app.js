@@ -1,19 +1,23 @@
 const dateStart = luxon.DateTime.fromISO('2023-08-09', { zone: 'utc' });
 const dateEnd = luxon.DateTime.fromISO('2024-06-01', { zone: 'utc' });
 const ticks = dateEnd.diff(dateStart, 'days').toObject().days;
-const goalPoints = 150;
+const goalPoints = 100;
 
 async function init() {
     const data = await (await fetch('releases.json')).json();
     const points = data.reduce((accumulator, current) => accumulator + parseInt(current.body, 10), 0);
 
-    initializeDates();
+    updateDates();
     updateProgress(points);
 }
 
-function initializeDates() {
+function updateDates() {
+    const x = luxon.DateTime.now().diff(dateStart, 'days').toObject().days;
+
     setElementInnerHtml('date-start', dateStart.toFormat('yyyy-MM-dd'));
     setElementInnerHtml('date-end', dateEnd.toFormat('yyyy-MM-dd'));
+
+    getElementByClass('date-marker').style.left = `calc(100% * ${x / ticks})`;
 }
 
 function updateProgress(points) {
