@@ -25,6 +25,7 @@ function updateProgress(points) {
     setElementInnerHtml('points-status-goal', goalPoints.toString());
 
     getElementByClass('progress-status').style.width = `${(points > goalPoints ? goalPoints : points) / goalPoints * 100}%`;
+    getElementByClass('progress-status-percentage').style.width = `${(points > goalPoints ? goalPoints : points) / goalPoints * 100}%`;
 
     setElementInnerHtml('progress-status-percentage', `${Math.floor(points / goalPoints * 100)}%`);
 }
