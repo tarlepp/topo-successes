@@ -112,25 +112,27 @@ h2 {
 
 .date-start,
 .date-end {
-    font-size: 3.5rem;
-    top: -10vh;
-    position: relative;
+    font-size: 50px;
+    line-height: 50px;
+    top: calc(40vh - 60px);
+    color: rgba(255, 255, 255, .7);
+    position: absolute;
 }
 
 .date-start {
     float: left;
-    left: -3vw;
+    left: 1vw;
 }
 
 .date-end {
     float: right;
-    right: -3vw;
+    right: 1vw;
 }
 
 .date-marker {
     position: relative;
     float: left;
-    border: 2px solid black;
+    border: 2px solid rgba(255, 255, 255, .8);
     border-radius: 2px;
     height: 14vh;
     top: -2vh;
@@ -139,7 +141,7 @@ h2 {
 
 .date-marker-text {
     position: absolute;
-    color: black;
+    color: rgba(255, 255, 255, .8);
     top: 100%;
     right: -30px;
     white-space: nowrap;
@@ -148,4 +150,6 @@ h2 {
 .points-status {
     clear: both;
     font-size: 40px;
+    font-weight: bold;
+    text-shadow: 0 0 15px rgba(255, 255, 255, .8);
 }
