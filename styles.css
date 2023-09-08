@@ -10,6 +10,7 @@ body {
     line-height: 1;
     text-shadow: 0 0 5px rgba(0, 0, 0, .6);
     overflow: hidden;
+    animation: fadein 2s;
 }
 
 .background {
@@ -153,4 +154,14 @@ h2 {
     font-size: 40px;
     font-weight: bold;
     text-shadow: 0 0 10px rgba(255, 255, 255, .8);
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
