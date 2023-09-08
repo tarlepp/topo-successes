@@ -9,6 +9,7 @@ body {
     font-family: 'Gloria Hallelujah', cursive;
     line-height: 1;
     text-shadow: 0 0 5px rgba(0, 0, 0, .6);
+    overflow: hidden;
 }
 
 .background {
@@ -115,8 +116,8 @@ h2 {
     font-size: 50px;
     line-height: 50px;
     top: calc(40vh - 60px);
-    color: rgba(255, 255, 255, .7);
     position: absolute;
+    text-shadow: 0 0 10px rgba(255, 255, 255, .8);
 }
 
 .date-start {
@@ -126,7 +127,7 @@ h2 {
 
 .date-end {
     float: right;
-    right: 1vw;
+    right: calc(1vh + 10px);
 }
 
 .date-marker {
@@ -151,5 +152,5 @@ h2 {
     clear: both;
     font-size: 40px;
     font-weight: bold;
-    text-shadow: 0 0 15px rgba(255, 255, 255, .8);
+    text-shadow: 0 0 10px rgba(255, 255, 255, .8);
 }
