@@ -6,11 +6,11 @@ body {
     justify-content: center;
     text-align: center;
     cursor: default;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
     line-height: 1;
     text-shadow: 0 0 5px rgba(0, 0, 0, .6);
     overflow: hidden;
-    animation: fadein 2s;
+    animation: fadein 3s;
 }
 
 .background {
@@ -56,10 +56,12 @@ body {
 
 .incidents-container:has(a:hover) {
     transform: scale(1.2) rotate(-45deg);
+    z-index: 100;
 }
 
 .fork-me-container:has(a:hover) {
     transform: scale(1.2) rotate(45deg);
+    z-index: 100;
 }
 
 .incidents-container a,
@@ -77,6 +79,10 @@ body {
 .incidents-container a:hover,
 .fork-me-container a:hover {
     text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-position: from-font;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
 }
 
 .progress-bar {
@@ -86,13 +92,15 @@ body {
     border-radius: 10px;
     width: 90vw;
     height: 10vh;
+    animation: container-animation 7000ms infinite;
 }
 
 .progress-status {
     height: 100%;
-    background-color: rgba(0, 255, 0, .6);
+    background-color: rgba(0, 255, 0, .7);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1)
 }
 
 .progress-status-percentage {
@@ -116,25 +124,26 @@ h2 {
 .date-end {
     font-size: 50px;
     line-height: 50px;
-    top: calc(40vh - 60px);
+    top: calc(-10vh - 10px);
     position: absolute;
     text-shadow: 0 0 10px rgba(255, 255, 255, .8);
 }
 
 .date-start {
     float: left;
-    left: 1vw;
+    left: -3vw;
 }
 
 .date-end {
     float: right;
-    right: calc(1vh + 10px);
+    right: calc(-3vh - 10px);
 }
 
 .date-marker {
     position: relative;
     float: left;
     border: 2px solid rgba(255, 255, 255, .8);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, .4);
     border-radius: 2px;
     height: 14vh;
     top: -2vh;
@@ -145,7 +154,7 @@ h2 {
     position: absolute;
     color: rgba(255, 255, 255, .8);
     top: 100%;
-    right: -30px;
+    right: -21px;
     white-space: nowrap;
 }
 
@@ -164,4 +173,12 @@ h2 {
     to {
         opacity: 1;
     }
+}
+
+@keyframes container-animation {
+    20% { transform: rotate(3deg); }
+    40% { transform: rotate(-2deg); }
+    60% { transform: rotate(2deg); }
+    80% { transform: rotate(-1deg); }
+    100% { transform: rotate(0deg); }
 }
