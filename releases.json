@@ -1,5 +1,46 @@
 [
   {
+    "url": "https://api.github.com/repos/tarlepp/topo-successes/releases/137704512",
+    "assets_url": "https://api.github.com/repos/tarlepp/topo-successes/releases/137704512/assets",
+    "upload_url": "https://uploads.github.com/repos/tarlepp/topo-successes/releases/137704512/assets{?name,label}",
+    "html_url": "https://github.com/tarlepp/topo-successes/releases/tag/2024-01-12",
+    "id": 137704512,
+    "author": {
+      "login": "tarlepp",
+      "id": 595561,
+      "node_id": "MDQ6VXNlcjU5NTU2MQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/595561?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tarlepp",
+      "html_url": "https://github.com/tarlepp",
+      "followers_url": "https://api.github.com/users/tarlepp/followers",
+      "following_url": "https://api.github.com/users/tarlepp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarlepp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarlepp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarlepp/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarlepp/orgs",
+      "repos_url": "https://api.github.com/users/tarlepp/repos",
+      "events_url": "https://api.github.com/users/tarlepp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarlepp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "node_id": "RE_kwDOKQLJo84INTRA",
+    "tag_name": "2024-01-12",
+    "target_commitish": "main",
+    "name": "One plus from teacher",
+    "draft": false,
+    "prerelease": false,
+    "created_at": "2024-01-08T12:40:49Z",
+    "published_at": "2024-01-19T12:05:16Z",
+    "assets": [
+
+    ],
+    "tarball_url": "https://api.github.com/repos/tarlepp/topo-successes/tarball/2024-01-12",
+    "zipball_url": "https://api.github.com/repos/tarlepp/topo-successes/zipball/2024-01-12",
+    "body": "1"
+  },
+  {
     "url": "https://api.github.com/repos/tarlepp/topo-successes/releases/136172447",
     "assets_url": "https://api.github.com/repos/tarlepp/topo-successes/releases/136172447/assets",
     "upload_url": "https://uploads.github.com/repos/tarlepp/topo-successes/releases/136172447/assets{?name,label}",
@@ -984,47 +1025,6 @@
     "body": "2"
   },
   {
-    "url": "https://api.github.com/repos/tarlepp/topo-successes/releases/120166819",
-    "assets_url": "https://api.github.com/repos/tarlepp/topo-successes/releases/120166819/assets",
-    "upload_url": "https://uploads.github.com/repos/tarlepp/topo-successes/releases/120166819/assets{?name,label}",
-    "html_url": "https://github.com/tarlepp/topo-successes/releases/tag/2023-09-04",
-    "id": 120166819,
-    "author": {
-      "login": "tarlepp",
-      "id": 595561,
-      "node_id": "MDQ6VXNlcjU5NTU2MQ==",
-      "avatar_url": "https://avatars.githubusercontent.com/u/595561?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/tarlepp",
-      "html_url": "https://github.com/tarlepp",
-      "followers_url": "https://api.github.com/users/tarlepp/followers",
-      "following_url": "https://api.github.com/users/tarlepp/following{/other_user}",
-      "gists_url": "https://api.github.com/users/tarlepp/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/tarlepp/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/tarlepp/subscriptions",
-      "organizations_url": "https://api.github.com/users/tarlepp/orgs",
-      "repos_url": "https://api.github.com/users/tarlepp/repos",
-      "events_url": "https://api.github.com/users/tarlepp/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/tarlepp/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "node_id": "RE_kwDOKQLJo84HKZmj",
-    "tag_name": "2023-09-04",
-    "target_commitish": "main",
-    "name": "One minus from teacher",
-    "draft": false,
-    "prerelease": false,
-    "created_at": "2023-09-06T18:05:34Z",
-    "published_at": "2023-09-06T18:05:51Z",
-    "assets": [
-
-    ],
-    "tarball_url": "https://api.github.com/repos/tarlepp/topo-successes/tarball/2023-09-04",
-    "zipball_url": "https://api.github.com/repos/tarlepp/topo-successes/zipball/2023-09-04",
-    "body": "-1"
-  },
-  {
     "url": "https://api.github.com/repos/tarlepp/topo-successes/releases/120166773",
     "assets_url": "https://api.github.com/repos/tarlepp/topo-successes/releases/120166773/assets",
     "upload_url": "https://uploads.github.com/repos/tarlepp/topo-successes/releases/120166773/assets{?name,label}",
@@ -1053,7 +1053,7 @@
     "node_id": "RE_kwDOKQLJo84HKZl1",
     "tag_name": "2023-09-01",
     "target_commitish": "main",
-    "name": "One plus from and two minuses from teachers",
+    "name": "One plus from teacher",
     "draft": false,
     "prerelease": false,
     "created_at": "2023-09-06T18:04:33Z",
@@ -1063,7 +1063,7 @@
     ],
     "tarball_url": "https://api.github.com/repos/tarlepp/topo-successes/tarball/2023-09-01",
     "zipball_url": "https://api.github.com/repos/tarlepp/topo-successes/zipball/2023-09-01",
-    "body": "-1"
+    "body": "1"
   },
   {
     "url": "https://api.github.com/repos/tarlepp/topo-successes/releases/120166659",
